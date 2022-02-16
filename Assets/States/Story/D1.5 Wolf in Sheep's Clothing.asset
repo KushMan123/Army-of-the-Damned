@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: D1.5 Wolf in Sheep's Clothing
+  m_EditorClassIdentifier: 
+  storyText: 'You decide to take a hostile approach and draw out your sword towards
+    Anton. Anton for his safety, drew his own crossbow as his weapon started shooting
+    at you.
+
+
+
+    Anton''s shot didn''t come close to hitting you. You swung your
+    sword and stabbed Anton on his heart ending his life. You feel very sad for doing
+    this, but deep down you know that you have ended Anton''s suffering and you are
+    keeping every other villager safe from the monster Anton would become in every
+    full moon.
+
+
+
+    You searched Anton''s body for anything valuable he was carrying.
+    You found some gold (Gold +10 ) and an Avacyn Collar. Anton could never wear
+    it  as blessed silver burns his flesh.  You put the collar inside your pocket
+    as a memento and memory of Anton. You promised that you would go to Anton''s
+    village and return this collar to his family.'
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: 4939023ae58cfe74483780c7a9b99151, type: 2}
+  options:
+  - Continue
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: 657817875ded143409eb8eadf0516824, type: 3}
+  healthDamage: 0
+  manaDamage: 0
+  goldCollected: 10

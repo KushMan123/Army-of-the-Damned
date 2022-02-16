@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: C1.4 Explosive Summons (Body)
+  m_EditorClassIdentifier: 
+  storyText: "You search the cultist body. Each of the cultists is carrying some
+    gold with them.  You are glad that you decided to investigate them. Gold, little
+    they may be, could help you a long way in your journey. (Gold +20).\r\n\r\nOne
+    of the cultists also carries a gilded ram\u2019s horn. It\u2019s worth 250 gold
+    to the right (shady) buyer. Etched on its side is a symbol -- the symbol of the
+    archdemon Griselbrand, the most venerated demon of the Skirsdag. You feel that
+    there is more to the story than just a simple summoning ritual. So rather than
+    exchanging for the gold that it's worth, you decided to keep hold of it.\r\n"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: 2ef23d44b94ee314c8ea23521205bd84, type: 2}
+  options:
+  - 1. Investigate the footprints to the exit.
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: db69351802a3c904694177054df2b06c, type: 3}
+  healthDamage: 0
+  manaDamage: 0
+  goldCollected: 20

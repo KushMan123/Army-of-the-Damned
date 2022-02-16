@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: D1.1. Wolf in the Sheep's Clothing 1
+  m_EditorClassIdentifier: 
+  storyText: "Anton tells that he is a good man but afraid to die. He begs you to
+    help, swearing that he is faithful to Avacyn and doesn\u2019t want to hurt anyone.
+    He needs you to escort him to Shadowgrange where he can pick up supplies and
+    escape north into the swamps, away from human civilization.\r\n\r\nYou decide
+    to help him and let him continue this journey with you. But Anton decides to
+    stay back and go to Shadowgrange on his own, as he is afraid that he could hurt
+    you on tonight's full moon. As a thank you, Anoton gives you his Avacyn Collar.
+    Anton could not wear it as blessed silver burns his flesh. You gladly take the
+    collar and promised to come back to save him from his curse.\r\n"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: 4939023ae58cfe74483780c7a9b99151, type: 2}
+  options:
+  - Continue
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: 657817875ded143409eb8eadf0516824, type: 3}

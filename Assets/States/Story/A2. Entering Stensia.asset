@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: A2. Entering Stensia
+  m_EditorClassIdentifier: 
+  storyText: "The journey continues through Stensia\u2019s outland valley along winding
+    stone paths dotted by grim pine trees and flanked by the far-flung mountain ranges
+    whose boney peaks reach into the cloudy sky. Sprouting from one such mountain
+    is a castle with many spires, its imposing structure casting a long shadow down
+    from the stony peaks. A hazy fog looms over the valleys, lightly obscuring objects
+    in the distance. The sky is awash in warm orange-red, with dark purplish-red
+    clouds covering the setting sun.\r\n\r\n3 swarms of skeletal bats are flying
+    in your direction. They roam the road with the singular motive of ripping apart
+    any traveler unfortunate enough to come across them. You think that starting
+    a fight may alert other mysteries around, but bat wings sell for a very good
+    price. You see a small roadside chapel whose name is long forgotten. You think
+    that this may be a very good hiding space from the bats, but you worry about
+    what dangers may be lurking inside this abandoned space.\r\n\r"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: 2c7f6029d305d7d4a998ac7421b51d2b, type: 2}
+  - {fileID: 11400000, guid: c2a1563bc9244d14eaba94f4cd987d97, type: 2}
+  options:
+  - "1: Investigate the Chapel\r"
+  - 2. Fight the swarm of bats

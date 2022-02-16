@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: C1.5 Explosive Summons Footprint
+  m_EditorClassIdentifier: 
+  storyText: "While most of the cultists that participated in the summoning ritual
+    stuck around for its explosive conclusion,  two pairs of humanoid footprints
+    exits the cave only hours ago. The footprints arrive at a horses\u2019 prints
+    and you immediately know that they rode off in the direction of Shadowgrange.\r\n\r\nThese
+    two surviving cultists are Shadowgrange residents. They ritually killed the other
+    willing cultists to complete the summoning and left before the ritual finished.\r\n"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: 519d3d282067e6442949c601ebd24506, type: 2}
+  options:
+  - 1. Continue your journey to Shadowgrange
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: db69351802a3c904694177054df2b06c, type: 3}
+  healthDamage: 0
+  manaDamage: 0
+  goldCollected: 0

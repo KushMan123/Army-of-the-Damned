@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: B1.2.1. Ancient Devotees (Treasure)
+  m_EditorClassIdentifier: 
+  storyText: 'You continue your search through the chapel. You are now standing in
+    the main hall of the chapel and the chapel alter right in front of the room,
+    shining from the sun rays.
+
+
+
+    A thorough search of the chapel''s main hall
+    ruins reveals a silver tithe collecting bowl buried in rubble beside the altar.
+    You are very happy with the treasure you have in your hands. You thinking of
+    exchanging the treasure for some gold. (Gold +70).
+
+'
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: e04bf2aaf436db64c94d189f992e051e, type: 2}
+  options:
+  - 1. Exit the Chapel and continue your journey.
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: 64befe34c03815b47a9ee082d9ed1dfc, type: 3}
+  healthDamage: 0
+  manaDamage: 0
+  goldCollected: 70

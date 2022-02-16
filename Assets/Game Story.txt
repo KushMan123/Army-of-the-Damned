@@ -1,0 +1,38 @@
+Your journey from Thraben to Shadowgrange has been
+relatively safe and mercifully uneventful so far. The road
+drifted across the rolling hills and heaths that make up the
+landscape of province Gavony, taking you through small
+villages and quiet farmlands.
+
+A few days ago you entered Geier Reach, the imposing
+mountain range that cuts Stensia off from its neighboring
+provinces. The trail through it, called Kruin’s Pass, was a
+long, jagged path that cut up and over the mountainsides,
+until finally you entered Stensia proper. The last few
+days had you trek through Stensia’s inner valley, passing
+through the small settlements Silbern, Bourg, and Corsiva,
+until earlier today when you crossed the threshold into the
+outer valley via the Hofsaddel Pass.
+
+The journey continues through Stensia’s outland valley
+along winding stone paths dotted by grim pine trees
+and flanked by the far-flung mountain ranges whose
+boney peaks reach into the cloudy sky. Sprouting from
+one such mountain is a castle with many spires, its
+imposing structure casting a long shadow down from the
+stony peaks. A hazey fog looms over the valleys, lightly
+obscuring objects in the distance. The sky is awash in
+warm orange-red, with dark purplish-red clouds covering
+the setting sun.
+
+3 swarms of skeletal bats are flying in
+the your direction. They roam the road with the
+singular motive of ripping apart any traveler unfortunate
+enough to come across them. You think that starting a fight
+may alert other mysteries around, but bat wings sell for a very good price.
+You see a small roadside chapel whose name is long forgotten. You think that 
+this may be a very good hiding space from the bats, but you worry about
+what dangers may be lerking inside this abandoned space.
+
+Option1: Fight the Skeletal Bats
+Option2: Investigate the Chapel

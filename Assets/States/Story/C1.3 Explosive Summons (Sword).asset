@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: C1.3 Explosive Summons (Sword)
+  m_EditorClassIdentifier: 
+  storyText: "You unsheathe your sword and prepare for the incoming attack. You block
+    the attacks thrown at you and with a single mighty cleave per creature, you cut
+    the beast emerged from the hell, one after another until each and every one of
+    them lay on the ground.(Life -2)\n\nYou investigating the chasm find that the
+    earth has resealed the bottom. No more demons will emerge from it -- at least
+    until another summoning occurs. You see the bodies of the cultist lying on the
+    ground, each being stabbed in the chest. Each cultist was ritually stabbed in
+    the heart with a dagger with no signs of struggle, and the killing strokes were
+    delivered hours before the ritual was completed. The ritual dagger is nowhere
+    to be found. \r\n\r\nFurthermore, you see two humanoid footprints exiting the
+    cave. \r\n\n\r"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: af43e1f9f43e89e41bcd4bb346142780, type: 2}
+  - {fileID: 11400000, guid: 2ef23d44b94ee314c8ea23521205bd84, type: 2}
+  options:
+  - "1. Investigate the cultist bodies for more information\r"
+  - 2. Investigate the footprints
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: 041f761c3f2aff844b98a75dd14259f5, type: 3}
+  healthDamage: 2
+  manaDamage: 0
+  goldCollected: 0

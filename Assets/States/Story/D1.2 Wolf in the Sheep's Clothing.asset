@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: D1.2 Wolf in the Sheep's Clothing
+  m_EditorClassIdentifier: 
+  storyText: "The shrine\u2019s divine magic lays dormant. You spend an hour performing
+    the proper holy rituals to reactivate the divine magic. Doing so grants anyone
+    rest at the shrine and evil creatures are compelled not to approach the shrine\u2019s
+    immediate vicinity.\r\n\r\nAfter the ritual, you are tired and decide to rest
+    for the night. You talk with Anton about how dangerous life had become. Anton
+    tells that he inherited land near Shadowgrange and that is why is traveling to
+    sign the papers. After having a conversation for about an hour, you both decided
+    to sleep and call it a night. You are glad that you performed the ritual. (You
+    regained all the Life and Mana)\r\n\r"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: b046d9bd9ebbbba468ee694ff4f01966, type: 2}
+  options:
+  - Continue
+  changeImage: 0
+  storyImage: {fileID: 0}
+  healthDamage: -100
+  manaDamage: -100
+  goldCollected: 0

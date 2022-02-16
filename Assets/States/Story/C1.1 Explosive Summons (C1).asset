@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: C1.1 Explosive Summons (C1)
+  m_EditorClassIdentifier: 
+  storyText: "Wisps of black sulfurous smoke stream from the cave\u2019s mouth. The
+    stone surfaces inside the cave are badly scorched from the fiery summoning. The
+    cave is dimly lit by numerous wax candles littering the walls and floor, most
+    knocked over from the explosion. Charred corpses of several cultists are on the
+    floor, the palms of their hands ritually slashed open, their blood used to paint
+    a wide red circle on the floor. The stone floor in the middle of the bloody circle
+    has fallen through, now a gaping chasm that spews heat and sulfurous black smoke.
+    The bottom of the chasm is lost in darkness.\r\n\r\nLeaping out of the chasm
+    with a howl is a monstrous fiery hound, its razor-sharp claws and teeth crowned
+    with flame. Riding atop this large dog is a small impish humanoid with long backswept
+    horns and hard, chitin- like dark red skin. The fiend grins wide, revealing rows
+    of needle-like teeth, its red eyes burning bright with anticipation as it yanks
+    the iron reigns of its steed, urging it faster towards you.\r\n"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: a5700b145ea0f9d438897e9ca23a5c8b, type: 2}
+  - {fileID: 11400000, guid: 5c87331cc00b86046965cf2d30255616, type: 2}
+  options:
+  - "1. Charge your magic (Mana -4)\r"
+  - 2. Attack with the sword.
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: 63b4a73015545394f9374bbd52e7e78c, type: 3}

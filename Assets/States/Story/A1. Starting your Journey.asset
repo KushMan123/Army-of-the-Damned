@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: A1. Starting your Journey
+  m_EditorClassIdentifier: 
+  storyText: "Your journey from Thraben to Shadowgrange has been relatively safe
+    and mercifully uneventful so far. The road drifted across the rolling hills and
+    heaths that make up the landscape of province Gavony, taking you through small
+    villages and quiet farmlands.\r\n\r\nA few days ago you entered Geier Reach,
+    the imposing mountain range that cuts Stensia off from its neighboring provinces.
+    The trail through it, called Kruin\u2019s Pass, was a long, jagged path that
+    cut up and over the mountainsides until finally, you entered Stensia proper.
+    The last few days had you trek through Stensia\u2019s inner valley, passing through
+    the small settlements Silbern, Bourg, and Corsiva, until earlier today when you
+    crossed the threshold into the outer valley via the Hofsaddel Pass.\r\n"
+  question: 'What will you do?
+
+'
+  nextStates:
+  - {fileID: 11400000, guid: 0b11cf88601fb2b4e9f35aee033f0c07, type: 2}
+  options:
+  - 1.  The journey to Shadowgrange will take two days and you are determined to
+    complete the task at hand, facing any obstacle on the way.
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: 6bf1fa0437e75dd4ab88e8db09878d36, type: 3}

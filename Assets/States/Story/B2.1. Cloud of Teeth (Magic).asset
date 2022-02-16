@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: B2.1. Cloud of Teeth (Magic)
+  m_EditorClassIdentifier: 
+  storyText: 'With an arcane word and a flourish of one hand, you send a bolt of
+    fire into the cloud of swarms. You see bats drop of the ground thrashing in the
+    flames. But the swarms do not seem to go away. You go and find yourself of cover
+    behind a cliff rock and start planning your next move.
+
+
+
+    Your only move
+    is to blast away past them. You shout the spell-trigger word, and a gout of flame
+    erupts from your hand, engulfing the swarm. You can hear the high-pitched chirps,
+    their pain burning in the flames and dropping to the ground. You see that the
+    swarms of the bat had disappeared. Some of them lying on the ground scorched
+    from the flames while others flee for their life.
+
+
+
+    See all the rewards
+    lying on the ground, you start to cut off the wings from the bat, hoping to exchange
+    it for some gold. (Gold +20)
+
+
+
+'
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: e04bf2aaf436db64c94d189f992e051e, type: 2}
+  options:
+  - 1. You continue onwards your journey.
+  changeImage: 0
+  storyImage: {fileID: 0}
+  healthDamage: 0
+  manaDamage: 5
+  goldCollected: 20

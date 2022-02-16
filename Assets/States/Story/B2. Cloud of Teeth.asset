@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: B2. Cloud of Teeth
+  m_EditorClassIdentifier: 
+  storyText: "You hear a cascading sound of high-pitched chirps and screeches coming
+    from somewhere up ahead. It\u2019s faint at first, but slowly rising in volume.
+    There\u2019s a dark blotch in the mists in front of you, and now you can hear
+    the screeching more clearly, along with the flapping of many tiny wings. The
+    dark blotch grows and takes form \u2013 it\u2019s a cloud of skeletal bats!\r\n\r\nThe
+    swarms attack any living beings in their way mercilessly with tiny razor-sharp
+    bites and are headed towards you.\r\n\r\n\r\n"
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: 787f9a919974bda41bdc8151d40c1979, type: 2}
+  - {fileID: 11400000, guid: 884e2af3979523a4fbcce5748527732b, type: 2}
+  options:
+  - "1. Blast the swarm with a Fireball (Mana -5)\r"
+  - 2. Use your holy sword to cut them down.
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: a6f9a6f0a5199134ca335efa021ec1f1, type: 3}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd6d337ec372ab4c87832e56c8073c7, type: 3}
+  m_Name: B1.1. Anicient Devotees (Enter Chuapel)
+  m_EditorClassIdentifier: 
+  storyText: "You are inside the chapel. Silence fills the air and it is very unsettling
+    feel an unholy presence within the chapel walls. You decide to investigate further
+    down the corridor.\r\n\r\nWith Avacyn\u2019s presence fading from the world,
+    foul magic has corrupted the earth's heart, and the dead have been forced to
+    rise. Three figures geared in weathered leathers of Cathars sit on the rotted
+    wooden pews with their heads bowed in reverence. Standing in front of them, at
+    the far end of the chapel behind a dilapidated podium, is a skeleton garbed in
+    tattered priestly robes, it's armed outstretched ceremoniously. \r\n\r\nThe skeletal
+    priest notices you and gestures to join the service and sit."
+  question: What will you do?
+  nextStates:
+  - {fileID: 11400000, guid: ba73341046b1ab24ebfbbfe1ec3d2d6e, type: 2}
+  - {fileID: 11400000, guid: 8483906c5ca29034d8d2da3bf56fa4bc, type: 2}
+  options:
+  - Take a hostile approach and remove the unholy presence
+  - See what will happen next.
+  changeImage: 1
+  storyImage: {fileID: 21300000, guid: f2f73d2ea4e19e54aad038c03997b6f6, type: 3}
+  healthDamage: 0
+  manaDamage: 0
+  goldCollected: 0
