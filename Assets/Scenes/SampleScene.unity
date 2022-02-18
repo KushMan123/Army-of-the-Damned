@@ -969,7 +969,7 @@ MonoBehaviour:
   goldCollectedComponent: {fileID: 18443862}
   gameOverState: {fileID: 11400000, guid: 5eb978cc8bbc9b14c97f8bb329bb16d3, type: 2}
   maxHealth: 7
-  maxMana: 12
+  maxMana: 3
 --- !u!4 &577119308
 Transform:
   m_ObjectHideFlags: 0

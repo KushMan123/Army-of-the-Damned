@@ -28,8 +28,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ba73341046b1ab24ebfbbfe1ec3d2d6e, type: 2}
   - {fileID: 11400000, guid: 8483906c5ca29034d8d2da3bf56fa4bc, type: 2}
   options:
-  - Take a hostile approach and remove the unholy presence
-  - See what will happen next.
+  - 'Take a hostile approach and remove the unholy presence.(Req: Mana>=5)'
+  - See what will happen next. (Req Mana>=3)
+  ManaDependentOption:
+  - Button0
+  - Button1
+  FightInitiationOption: []
+  requiredMana: 0500000003000000
   changeImage: 1
   storyImage: {fileID: 21300000, guid: f2f73d2ea4e19e54aad038c03997b6f6, type: 3}
   healthDamage: 0

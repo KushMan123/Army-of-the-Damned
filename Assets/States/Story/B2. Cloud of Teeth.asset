@@ -24,7 +24,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 787f9a919974bda41bdc8151d40c1979, type: 2}
   - {fileID: 11400000, guid: 884e2af3979523a4fbcce5748527732b, type: 2}
   options:
-  - "1. Blast the swarm with a Fireball (Mana -5)\r"
+  - 1. Blast the swarm with a Fireball. (Req Mana>=5)
   - 2. Use your holy sword to cut them down.
+  ManaDependentOption:
+  - Button0
+  FightInitiationOption: []
+  requiredMana: 05000000
   changeImage: 1
   storyImage: {fileID: 21300000, guid: a6f9a6f0a5199134ca335efa021ec1f1, type: 3}
+  healthDamage: 0
+  manaDamage: 0
+  goldCollected: 0

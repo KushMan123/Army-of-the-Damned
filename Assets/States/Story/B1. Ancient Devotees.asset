@@ -28,8 +28,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c8b6652fa71ee0b4eb159aae3ac425bf, type: 2}
   - {fileID: 11400000, guid: d382f373fed2d2e4286d614dbea3137b, type: 2}
   options:
-  - "1. Blast through the front door. (Mana -3)\r"
+  - '1. Blast through the front door.(Req: Mana>=3)'
   - 2. Crawl through the wall.
+  ManaDependentOption:
+  - Button0
+  FightInitiationOption: []
+  requiredMana: 03000000
   changeImage: 1
   storyImage: {fileID: 21300000, guid: 159ced46fe728a54c86125be2a1f800c, type: 3}
   healthDamage: 0

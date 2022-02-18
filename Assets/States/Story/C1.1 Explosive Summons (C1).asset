@@ -30,7 +30,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a5700b145ea0f9d438897e9ca23a5c8b, type: 2}
   - {fileID: 11400000, guid: 5c87331cc00b86046965cf2d30255616, type: 2}
   options:
-  - "1. Charge your magic (Mana -4)\r"
+  - 1. Charge your magic (Req Mana>=4)
   - 2. Attack with the sword.
+  ManaDependentOption:
+  - Button0
+  FightInitiationOption: []
+  requiredMana: 04000000
   changeImage: 1
   storyImage: {fileID: 21300000, guid: 63b4a73015545394f9374bbd52e7e78c, type: 3}
+  healthDamage: 0
+  manaDamage: 0
+  goldCollected: 0

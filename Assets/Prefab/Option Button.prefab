@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7967506206477645615}
   - component: {fileID: 7967506206477645608}
   - component: {fileID: 7967506206477645609}
-  - component: {fileID: 7967506206477645614}
   - component: {fileID: 7967506206477645613}
   - component: {fileID: 7967506206477645612}
   - component: {fileID: 643309278109159508}
@@ -124,7 +123,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7967506206477645614}
+      - m_Target: {fileID: 643309278109159508}
         m_MethodName: onChoiceButtonClick
         m_Mode: 1
         m_Arguments:
@@ -135,18 +134,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &7967506206477645614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7967506206477645611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3731bad909b6f7c458d65779916b3875, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7967506206477645613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,6 +191,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 7967506206516449218}
+  buttonComponent: {fileID: 7967506206477645609}
 --- !u!114 &13129235200581740
 MonoBehaviour:
   m_ObjectHideFlags: 0
